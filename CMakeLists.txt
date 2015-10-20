@@ -17,3 +17,5 @@ add_executable(netwn main/netwn.cpp src/fnewt.cpp src/ge.cpp)
 
 add_executable(orbit main/orbit.cpp src/Comet.cpp src/Comet.h)
 target_link_libraries(orbit armadillo)
+add_library(Comet src/Comet.cpp src/Comet.h)
+target_link_libraries(Comet armadillo)

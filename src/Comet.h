@@ -1,13 +1,10 @@
-//
-// Created by lise on 2015/10/17.
-//
-
 #ifndef NUMMETHPHY_COMET_H
 #define NUMMETHPHY_COMET_H
 
 
 #include <armadillo>
 using namespace arma;
+
 
 class Comet
 {
